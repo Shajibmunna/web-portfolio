@@ -36,6 +36,7 @@ p{
 .top-banner{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
     padding:50px;
 }
 .first-top{
@@ -54,6 +55,14 @@ section{
     border: 0px;
     color: aliceblue;
     cursor: pointer;
+}
+
+.biography{
+    background-image: url("images/biography-bg.png");
+    padding:50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
 }
 
 .center-heading{
@@ -79,18 +88,26 @@ section{
 
 .my-work{
     margin-top:250px;
+    background-image: url("images/latest-work-bg.png");
+    padding:50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
 }
 
 .testimonial{
     text-align: center;
-    margin:90px;
+    margin:120px 0;
+    height: 400px;
+}
+
+.reviews{
+    margin:110px;
 }
 
 .client{
     text-align: center;
     font-family: poppins;
-    margin-top:80px;
-    margin-bottom:50px;
 }
 
 .client p{
@@ -100,9 +117,13 @@ section{
 
 .feedback{
     text-align: center;
-    width: 50%;
-    margin:auto;
     font-weight: 500;
+}
+
+.rev{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
 }
 
 .info-box{
@@ -119,7 +140,12 @@ section{
     text-decoration: none;
     color: white;}
 
-.copyright{
+
+
+.footer{
     text-align: center;
-    margin-top:80px;
+    margin-top:60px;
+    background-image: url("images/footer-bg.png");
+    padding:50px;
+    background-position: center
 }
