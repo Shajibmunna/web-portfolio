@@ -57,6 +57,10 @@ section{
     cursor: pointer;
 }
 
+.btn1:hover{
+    background:#FF4790;
+}
+
 .biography{
     background-image: url("images/biography-bg.png");
     padding:50px;
@@ -140,7 +144,10 @@ section{
     text-decoration: none;
     color: white;}
 
-
+    .info-box:hover{
+        background-color: #FF4790;
+        color: white;
+    }
 
 .footer{
     text-align: center;
